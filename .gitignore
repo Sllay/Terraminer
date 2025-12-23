@@ -1,0 +1,7 @@
+.import/
+*.import
+.godot/
+.temp/
+*.bak
+*.bak_*
+*.tmp

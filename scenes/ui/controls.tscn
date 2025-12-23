@@ -1,0 +1,14 @@
+[gd_scene format=3 uid="uid://viokbpem74l7"]
+
+[ext_resource type="PackedScene" uid="uid://dmr0fcamx7t56" path="res://addons/virtual_joystick/virtual_joystick_scene.tscn" id="1_wqeuo"]
+[ext_resource type="Texture2D" uid="uid://bkvmydfn5saxg" path="res://addons/virtual_joystick/textures/joystick_tip.png" id="2_l7mrp"]
+
+[node name="Controls" type="CanvasLayer" unique_id=34332437]
+
+[node name="Virtual Joystick" parent="." unique_id=1987726969 instance=ExtResource("1_wqeuo")]
+
+[node name="TouchScreenButton" type="TouchScreenButton" parent="." unique_id=639871964]
+position = Vector2(794, 335)
+texture_normal = ExtResource("2_l7mrp")
+passby_press = true
+action = "ui_accept"
