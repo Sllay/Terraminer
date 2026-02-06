@@ -32,7 +32,6 @@ func _apply_gravity(delta: float) -> void:
 	if not is_on_floor():
 		velocity.y -= gravity * delta
 	else:
-		# mantém “colado” no chão pra não ficar voando em pequenas irregularidades
 		if velocity.y < 0.0:
 			velocity.y = 0.0
 
